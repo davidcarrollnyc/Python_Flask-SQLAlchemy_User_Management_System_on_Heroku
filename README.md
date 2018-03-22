@@ -1,4 +1,4 @@
-This is a PYTHON/MySQL User Regstration/Login system which employs:
+This is a PYTHON/MySQL User Registration/Login system which employs:
 
 MySQL
 FLASK-SQLAlchemy

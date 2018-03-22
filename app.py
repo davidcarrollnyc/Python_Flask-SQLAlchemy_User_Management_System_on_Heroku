@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 
 app.config['SECRET_KEY'] = 'Thisissupposedtobesecret!'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://b9024fa4c438dd:ef202884@us-cdbr-iron-east-05.cleardb.net/heroku_46565dbb12b46e3'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://XXXXXXXXXX:XXXXXXXXXX@us-cdbr-iron-east-05.cleardb.net/heroku_XXXXXXXXXX'
 bootstrap = Bootstrap(app)
 db = SQLAlchemy(app)
 login_manager = LoginManager()

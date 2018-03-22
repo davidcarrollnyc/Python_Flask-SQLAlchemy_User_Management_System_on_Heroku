@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://b9024fa4c438dd:ef202884@us-cdbr-iron-east-05.cleardb.net/heroku_46565dbb12b46e3'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://XXXXXXXXXX:XXXXXXXXXX@us-cdbr-iron-east-05.cleardb.net/heroku_XXXXXXXXXX'
 db = SQLAlchemy(app)
 
 class heroku_46565dbb12b46e3(db.Model):
